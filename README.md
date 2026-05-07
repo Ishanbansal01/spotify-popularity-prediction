@@ -2,9 +2,11 @@
 
 Predicting whether a Spotify track is popular using audio features and ensemble learning.
 
-This project investigates whether the intrinsic audio characteristics of a Spotify track
+This project investigates whether the audio characteristics of a Spotify track
 can predict its commercial popularity. We formulate this as a binary classification problem
 and compare three machine learning models: Logistic Regression, Random Forest, and XGBoost.
+
+My approach I chose for this project is meaningful approach. 
 
 ## Dataset
 The dataset I used can be downloaded on kaggle with the link below that I have attached.
@@ -21,6 +23,8 @@ Place the downloaded file in a folder called "data" so the path looks like this 
   and correlation heatmap
 - visualize.py —-> generates the class distribution chart and audio feature
   distribution plots
+- cluster.py — applies K-Means clustering to identify audio profile groups and
+  generates cluster visualizations and popularity rate analysis
 
 ## How to Run
 
@@ -39,5 +43,10 @@ python3 evaluate.py
 Step 5 — Generate additional figures using following command:
 python3 visualize.py
 
+Step 6 — Run clustering analysis:
+python3 cluster.py
+
 ## Results
 When everything is ran, there will be a folder created called 'figures' which will have all my graphs, plots, and other visuals that were made with the code. 
+
+All other results will be outputted as tables. All results are also attached in my final paper write up.
