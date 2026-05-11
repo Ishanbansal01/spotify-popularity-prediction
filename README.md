@@ -23,27 +23,27 @@ Place the downloaded file in a folder called "data" so the path looks like this 
   and correlation heatmap
 - visualize.py —-> generates the class distribution chart and audio feature
   distribution plots
-- cluster.py — applies K-Means clustering to identify audio profile groups and
+- cluster.py —-> applies K-Means clustering to identify audio profile groups and
   generates cluster visualizations and popularity rate analysis
 
 ## How to Run
 
-Step 1 — Install all required libraries listed here:
+Step 1 Install all required libraries listed here:
 pip install pandas numpy scikit-learn xgboost matplotlib
 
-Step 2 — Run preprocessing using following command:
+Step 2 Run preprocessing using following command:
 python3 preprocess.py
 
-Step 3 — Train all models using following command:
+Step 3 Train all models using following command:
 python3 train.py
 
-Step 4 — Generate evaluation figures using following command:
+Step 4 Generate evaluation figures using following command:
 python3 evaluate.py
 
-Step 5 — Generate additional figures using following command:
+Step 5 Generate additional figures using following command:
 python3 visualize.py
 
-Step 6 — Run clustering analysis:
+Step 6 Run clustering analysis:
 python3 cluster.py
 
 ## Results
